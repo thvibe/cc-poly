@@ -12,3 +12,22 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
+#topBar.paper-toolbar {
+ padding-top:16px;
+}
+@media (max-width: 639px) {
+ paper-toolbar {
+    height: 70px;
+}
+}
+paper-icon-button.right-card {
+ float: right;
+}
+paper-fab {
+    position: absolute;
+    right: 17px;
+    bottom: 25px;
+}
+paper-fab.green {
+  --paper-fab-background: var(--paper-green-500);
+}
