@@ -23,11 +23,21 @@ body {
 paper-icon-button.right-card {
  float: right;
 }
-paper-fab {
+/*paper-fab {
     position: absolute;
     right: 17px;
     bottom: 25px;
+}*/
+paper-fab {
+  margin-right:6%;
+  float:right;
+ }
+ paper-fab.yellow {
+  background: #FAD45C;
 }
-paper-fab.green {
-  --paper-fab-background: var(--paper-green-500);
+paper-fab.red {
+  background: red;
+}
+paper-fab.orange {
+  background: orange;
 }
